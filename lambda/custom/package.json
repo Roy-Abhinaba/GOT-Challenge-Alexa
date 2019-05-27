@@ -1,0 +1,16 @@
+{
+  "name": "got-challenge",
+  "version": "1.0.0",
+  "description": "Alexa skill got-challenge created for hackathon using APL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leslie Correa",
+  "license": "ISC",
+  "dependencies": {
+    "ask-sdk-core": "^2.0.0",
+    "ask-sdk-dynamodb-persistence-adapter": "^2.5.2",
+    "ask-sdk-model": "^1.0.0"
+  }
+}

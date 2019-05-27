@@ -1,0 +1,157 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "G. O. T. Challenge",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "PlayIntent",
+          "slots": [
+            {
+              "name": "answer",
+              "type": "BoB_ANSWERS"
+            }
+          ],
+          "samples": [
+            "{answer} is my answer",
+            "{answer} is the answer",
+            "{answer}",
+            "answer is {answer}",
+            "play",
+            "play the game"
+          ]
+        },
+        {
+          "name": "RulesIntent",
+          "slots": [],
+          "samples": [
+            "rules",
+            "say rules",
+            "please say the rules"
+          ]
+        },
+        {
+          "name": "CluesIntent",
+          "slots": [],
+          "samples": [
+            "clue",
+            "clues",
+            "say clues",
+            "please say the clues"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.MoreIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateSettingsIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PageUpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PageDownIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PreviousIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollRightIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollDownIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollLeftIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollUpIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "West Bengal",
+                "synonyms": [
+                  "west",
+                  "bengal",
+                  "west bengal"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "black hole of calcutta incident",
+                "synonyms": [
+                  "calcutta incident",
+                  "black hole of calcutta incident",
+                  "black hole"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Robert Clive",
+                "synonyms": [
+                  "robert clive",
+                  "clive",
+                  "robert"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Alivardi Khan",
+                "synonyms": [
+                  "alivardi",
+                  "khan",
+                  "alivardi khan"
+                ]
+              }
+            }
+          ],
+          "name": "BoB_ANSWERS"
+        }
+      ]
+    }
+  },
+  "version": "8"
+}

@@ -1,0 +1,62 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": ".\\lambda\\custom"
+        },
+        "interfaces": [
+          {
+            "type": "RENDER_TEMPLATE",
+            "minimumTemplateVersion": "1.0"
+          },
+          {
+            "type": "ALEXA_PRESENTATION_APL"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "locales": {
+        "en-IN": {
+          "privacyPolicyUrl": "https://github.com/SuneetPatil/Terms-Conditions/blob/master/privacy-policy.md",
+          "termsOfUseUrl": "https://github.com/SuneetPatil/Terms-Conditions/blob/master/terms-conditions.md"
+        }
+      },
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    },
+    "publishingInformation": {
+      "locales": {
+        "en-IN": {
+          "name": "got-challenge",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/e6e3/d7f4aa0c67c546bba854fafa63b1bb83/APP_ICON?versionId=ekmec5tpbPB6RWTle7B7qsqyN7sR9uJr&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190526T064634Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190526%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=774c4b769b268b46a6e649ea32c6910797b57492a1c30d7b137316ef358c5178",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/ad19/c91f71d827254feda067e3cd66859b82/APP_ICON_LARGE?versionId=6Vxz09lKb4XRa6hI4XULpO_nFcWGXHNs&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190526T064634Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190526%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=afbcd25df3fe96f2ad9fd25ed0612d60a8d4353cb91dad6de20378720dc76b0f",
+          "summary": "Game of thrones, is unique way of creating interest about the Game of Thrones series in the form of multi level based game",
+          "description": "Game of thrones is a unique way of creating interest about the Game of Thrones series in the form of the multi-level game.\nIn each level, first, you will be provided with an overview of the GOT season or charecter and test your knowledge by asking a set of 4 questions.\nIf you answer correctly, u get 25 points. If you do not know the answer, you can use clues. for each clue, 10 points will be deducted from 25.\nYou need to score at least 50 points to proceed to next level. if you score 60 you get 1 star, for 80 u get 2 stars and for all the correct answers at first try, u get 3 stars along with advancing to next level.",
+          "examplePhrases": [
+            "Alexa open G. O. T. challenge",
+            "Alexa launch G. O. T. challenge",
+            "Alexa start G. O. T. challenge"
+          ],
+          "keywords": [
+            "Leslie",
+            "got-challenge",
+            "Game of Thrones",
+            "India",
+            "got-challenge"
+          ],
+          "updatesDescription": "Updated example phrases"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    }
+  }
+}
