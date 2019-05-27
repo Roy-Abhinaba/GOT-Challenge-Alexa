@@ -21,7 +21,7 @@ In each level, first user will be provided with an overview of the specific char
 *	Creating interest among users by creating the game in multiple levels, giving badges for users who answer faster and correctly and creating leader boards.
 
 
-
+![alt Architecture](https://github.com/Roy-Abhinaba/GOT-Challenge-Alexa/blob/master/Images/Architecture.PNG) 
 
 
 # Sample Conversation:
