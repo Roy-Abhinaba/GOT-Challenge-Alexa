@@ -2,7 +2,7 @@
 This repo is to demonstrate multi model Alexa voice based quiz game. 
 
 # Brief Demonstrating Skill: 
-  **Demo Video:** [YouTube Link]()
+  **Demo Video:** [YouTube Link](https://youtu.be/Oeerhp8nsz8)
   
 HBO TV Show Game of Thrones is along and plot-heavy series, so people won’t remember most of the details about their favorite characters or houses. Most of the time we spend more time on Internet searching event details or watching the previous season to recall events happened earlier.
 
